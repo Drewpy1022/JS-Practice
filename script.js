@@ -99,3 +99,13 @@ output = 'I like the song"' + song + '" .\nI give it a score of ' + (score/highe
 output = `I like the song "${song}.
 i gave it a score of ${score/highestScore *100}%.`;
 
+//<---------- Booleans --------->
+//True = yes | false = no
+alert(2 > 1); //true
+alert(2 == 1); //false
+alert(2 != 1); //true
+
+//A comparison result can be assigned to a variable just like any value
+let result = 5 > 4; //assign the result of the comparison
+alert(result); //true
+
