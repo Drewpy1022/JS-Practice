@@ -96,6 +96,6 @@ examReport = `You scored ${examScore}/${examHighestScore} (${math.round((examSco
 output = 'I like the song"' + song + '" .\nI give it a score of ' + (score/highestScore *100) + '%.';
 
 //Template literals respect the line breaks in the source code, so newline characters are no longer needed. This would achieve the same result
-output = `I like the song" ${song}
-i gave 
+output = `I like the song "${song}.
+i gave it a score of ${score/highestScore *100}%.`;
 
