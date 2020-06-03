@@ -9,9 +9,7 @@
     ^lastLetter("abcd") should return "d"
 */
 
-// 1.)
-
-
+/* 1.)
 function add7(){
     let number = parseInt(prompt('pick a number that you would like 7 added to: '));
     let newNumber = number + 7;
@@ -19,3 +17,13 @@ function add7(){
 };
 
 add7();
+*/
+
+
+// 2.)
+function multiply(){
+    let number = parseInt(prompt('Pick a number:'));
+    let number2 = parseInt(prompt('Pick another number:'));
+    console.log(number * number2);
+}
+multiply();
