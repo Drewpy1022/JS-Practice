@@ -57,3 +57,30 @@ myButton.onclick = function(){
 }
 
 //[----- Function Parameters -----]
+
+//Some functions require parameters to be specified when you are invoking them
+//the browser's built-in Math.random() doesn't require any parameters.
+let myNumber = Math.random();
+
+//The browsers built in string replace() function however, needs two parameters - 
+//the substring to find the main string and the substring to replace that string with.
+let myText = 'This is a string';
+let newString = myText.replace('string', 'sausage');
+
+//Sometime parameters are optional - if you don't specify them it will adopt a default behaivor. As an example, the array join()
+//function's parameter is optional
+let myArray = ['i', 'love', 'chocolate', 'frogs'];
+let madeAString = myArray.join('');
+//returns "i love chocolate frogs"
+let madeAString = myArray.join();
+//returns "i,love,chocolate,frogs"
+
+//[----- Function Scope and conflicts-----]
+
+
+
+
+
+
+
+
