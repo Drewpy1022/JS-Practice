@@ -27,10 +27,10 @@ function multiply(){
     console.log(number * number2);
 }
 multiply();
-*/
 
 
-// 3.)
+
+ 3.)
 function capitalize(){
     let sentence = prompt('Type a word: ');
     let sentenceCap = sentence.charAt(0).toUpperCase() + sentence.substr(1).toLowerCase();
@@ -38,3 +38,13 @@ function capitalize(){
 }
 
 capitalize();
+*/
+
+// 4.)
+function lastLetter(){
+    let choice = prompt('type ANYTHING!');
+    let choiceNew = choice.slice(-1);
+    console.log(choiceNew)
+}
+
+lastLetter();
