@@ -20,10 +20,21 @@ add7();
 */
 
 
-// 2.)
+/* 2.)
 function multiply(){
     let number = parseInt(prompt('Pick a number:'));
     let number2 = parseInt(prompt('Pick another number:'));
     console.log(number * number2);
 }
 multiply();
+*/
+
+
+// 3.)
+function capitalize(){
+    let sentence = prompt('Type a word: ');
+    let sentenceCap = sentence.charAt(0).toUpperCase() + sentence.substr(1).toLowerCase();
+    console.log(sentenceCap);
+}
+
+capitalize();
